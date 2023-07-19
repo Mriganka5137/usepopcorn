@@ -81,8 +81,8 @@ Star.propTypes = {
 function Star({ onRate, full, onHoverIn, onHoverOut, color, size }) {
   const starStyle = {
     display: "block",
-    width: "45px",
-    height: "45px",
+    width: `${size}px`,
+    height: `${size}px`,
     cursor: "pointer",
   };
   return (
